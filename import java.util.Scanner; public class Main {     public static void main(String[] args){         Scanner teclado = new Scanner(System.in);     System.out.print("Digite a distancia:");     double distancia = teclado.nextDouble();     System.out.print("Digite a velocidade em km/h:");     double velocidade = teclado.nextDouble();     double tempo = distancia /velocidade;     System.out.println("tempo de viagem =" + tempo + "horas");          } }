@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args){
+        Scanner teclado = new
+Scanner(System.in);
+    System.out.print("Digite a distancia:");
+    double distancia = teclado.nextDouble();
+    System.out.print("Digite a velocidade em km/h:");
+    double velocidade = teclado.nextDouble();
+    double tempo = distancia / velocidade;
+    System.out.println("tempo de viagem =" + tempo + "horas");
+    
+    }
+}
